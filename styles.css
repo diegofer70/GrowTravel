@@ -61,17 +61,21 @@ section#quem-somos {
     gap: 48px;
 }
 
-section#planos {
-    flex-direction: column;
-}
-
 section#quem-somos > div {
     text-align: left;
     width: 60%;
 }
 
+section#planos {
+    flex-direction: row-reverse;
+}
+
 section#quem-somos > img {
     width: 40%;
+}
+
+section#planos {
+    flex-direction: column;
 }
 
 button.botao-padrao {
