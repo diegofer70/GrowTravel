@@ -2,8 +2,8 @@
 
 * {
     font-family: 'Roboto', sans-serif;
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
 header {
@@ -12,12 +12,12 @@ header {
 }
 
 nav.menu > ul {
-    display: nome;
+    display: flex;
     gap: 48px;
 }
 
-nav.menu > li {
-    list-style: none;
+nav.menu li {
+    list-style-type: none;
 }
 
 nav.menu li > a {
@@ -47,19 +47,31 @@ section {
     border-bottom: 1px solid #c0bdbd;
 }
 
-section#pagina-inicial {
+section {
     display: flex;
-    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
 }
 
+section#pagina-inicial {
+    flex-direction: row-reverse;
+}
+
 section#quem-somos {
-    display: flex;
+    gap: 48px;
+}
+
+section#planos {
+    flex-direction: column;
 }
 
 section#quem-somos > div {
     text-align: left;
+    width: 60%;
+}
+
+section#quem-somos > img {
+    width: 40%;
 }
 
 button.botao-padrao {
@@ -79,7 +91,6 @@ button.botao-padrao:hover {
 
 table {
     width: 70%;
-    margin: 12px auto;
 }
 
 table, td, th {
@@ -105,12 +116,12 @@ footer > p {
     color: grey;
 }
 
-a#btn-flutuante {
+a#botao-flutuante {
     position: fixed;
     right: 25px;
     bottom: 25px;
 }
 
-a#btn-flutuante > img {
+a#botao-flutuante > img {
     width: 60px;
 }
