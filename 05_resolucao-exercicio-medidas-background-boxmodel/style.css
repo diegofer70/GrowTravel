@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3c63b5;
+    padding: 6px;
+}
+
+header > p {
+    display: inline-block;
+    margin: 24px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+
+section {
+    text-align: center;
+    padding: 48px;
+}
+
+img {
+    width: 400px;
+}
+
+h2 {
+    font-size: 48px;
+    margin: 12px 0;
+}
+
+button.botao-padrao {
+    padding: 18px 48px;
+    border-radius: 48px;
+    border: 1px solid #3c63b5;
+    background-color: #3c63b5;
+    color: white;
+    margin-top: 24px;
+    font-size: 16px;
+}
+
+hr {
+    border: 1px solid #c8c5c5;
+}
+
+footer {
+    padding: 36px;
+}
+
+footer > p {
+    color: grey;
+    text-align: center;
+    font-size: 14px;
+}

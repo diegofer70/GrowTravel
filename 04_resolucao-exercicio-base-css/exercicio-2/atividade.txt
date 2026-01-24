@@ -1,0 +1,12 @@
+Utilizando CSS interno aplique as seguintes regras CSS:
+
+1. Modifique a família de fonte para TODOS os elementos da página utilizando o seletor CSS correto;
+
+2. Adicione o atributo class com o valor "titulo-secao" nos elementos que contemplam os títulos de cada seção (Formação, Experiências Profissionais e Contato). Aplique os seguintes estilos para os elementos que possuírem a classe "titulo-secao":
+- Um tamanho de fonte de 24px;
+- Uma cor de fundo com o valor do tipo RGB;
+
+3. Adicione o atributo id com o valor "texto-copyright" no parágrafo do rodapé da página. Aplique os seguintes estilos para o elemento que possuir o id "texto-copyright":
+- Um tamanho de fonte de 14px;
+- Uma cor de texto com o valor do tipo Nome para qualquer tom de cinza;
+- Alinhe o texto ao centro da página
