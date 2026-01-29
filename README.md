@@ -7,7 +7,7 @@ O projeto tem como objetivo aplicar, na prática, conceitos fundamentais de estr
 ## 🚀 Demonstração
 
 🔗 Acesse o projeto online:  
-https://projeto-site-growtravel.vercel.app/
+https://projeto-growtravel.vercel.app/
 
 ## 🛠️ Tecnologias Utilizadas
 
