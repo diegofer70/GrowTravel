@@ -41,13 +41,13 @@ section {
 }
 
 button.botao-padrao {
-    padding: 18px 48px;
-    border-radius: 48px;
+    padding: 12px 30px;
+    border-radius: 17px;
     border: 1px solid #3b63b6;
     background-color: #3b63b6;
     font-size: 16px;
     color: white;
-    margin: 24px 0;
+    margin: 10px 0;
 }
 
 section#quem-somos > div > p {
